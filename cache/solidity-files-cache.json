@@ -1,0 +1,797 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1615956577461,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1615956577517,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "openzeppelin-solidity/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/access/AccessControl.sol": {
+      "lastModificationDate": 1615956577433,
+      "contentHash": "54eb0b53c109558e8312811342e95bf0",
+      "sourceName": "openzeppelin-solidity/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/EnumerableSet.sol",
+        "../utils/Address.sol",
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1615956577781,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol": {
+      "lastModificationDate": 1615956577461,
+      "contentHash": "c7b90bb47793b219e087d0906b6dc502",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Capped"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
+      "lastModificationDate": 1615956577441,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1615956577493,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1615956577445,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/home/user01/Projects/vee/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
+      "lastModificationDate": 1615956577433,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/user01/Projects/vee/contracts/VEECrowdsale.sol": {
+      "lastModificationDate": 1616075994698,
+      "contentHash": "9dfe2cc77a39bd7baf3b04de0d490d6c",
+      "sourceName": "contracts/VEECrowdsale.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./VEEToken.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/access/AccessControl.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "VEECrowdsale"
+      ]
+    },
+    "/home/user01/Projects/vee/contracts/VEEToken.sol": {
+      "lastModificationDate": 1616072785210,
+      "contentHash": "ac79fd3bb99f061d49f51a59d1f061da",
+      "sourceName": "contracts/VEEToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/access/AccessControl.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "VEEToken"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/contracts/VEECrowdsale.sol": {
+      "lastModificationDate": 1616150760276,
+      "contentHash": "55bbd9140122e128cb27c788af0dd1d8",
+      "sourceName": "contracts/VEECrowdsale.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./VEEToken.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/access/AccessControl.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "VEECrowdsale"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/contracts/VEEToken.sol": {
+      "lastModificationDate": 1616150596476,
+      "contentHash": "ac79fd3bb99f061d49f51a59d1f061da",
+      "sourceName": "contracts/VEEToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol",
+        "openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "openzeppelin-solidity/contracts/access/AccessControl.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "VEEToken"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1616150602000,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1616150602004,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "openzeppelin-solidity/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/access/AccessControl.sol": {
+      "lastModificationDate": 1616150602008,
+      "contentHash": "54eb0b53c109558e8312811342e95bf0",
+      "sourceName": "openzeppelin-solidity/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/EnumerableSet.sol",
+        "../utils/Address.sol",
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1616150596852,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol": {
+      "lastModificationDate": 1616150602000,
+      "contentHash": "c7b90bb47793b219e087d0906b6dc502",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Capped"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
+      "lastModificationDate": 1616150602012,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1616150602004,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1616150602008,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "openzeppelin-solidity/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/home/user01/Projects/Veelancing/smart-contract/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
+      "lastModificationDate": 1616150602008,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    }
+  }
+}
